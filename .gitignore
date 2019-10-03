@@ -15,6 +15,7 @@ Thumbs.db
 .gradle/
 build/
 target/
+logs/
 bin/
 dependency-reduced-pom.xml 
 
