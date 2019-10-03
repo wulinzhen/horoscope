@@ -1,0 +1,239 @@
+2019-09-18 06:56:29.050 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Starting InitSolarTermsTest on LAPTOP-R4PC1KLI with PID 10872 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 06:56:29.065 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - No active profile set, falling back to default profiles: default
+2019-09-18 06:56:35.630 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 06:56:35.634 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 06:56:35.708 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-09-18 06:56:35.747 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 06:56:35.749 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 06:56:35.796 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-09-18 06:56:37.164 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32be29bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 06:56:37.227 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$c1f1cb4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 06:56:38.134 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 06:56:38.451 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 06:56:38.453 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 06:56:38.886 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 06:56:39.818 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 06:56:40.377 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 06:56:44.465 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 06:56:45.897 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 06:56:45.935 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 06:56:45.959 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 06:56:46.371 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 06:56:46.386 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Started InitSolarTermsTest in 18.614 seconds (JVM running for 20.5)
+2019-09-18 06:56:46.932 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 06:56:46.938 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 06:56:46.944 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 06:56:46.949 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 06:57:48.298 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Starting InitSolarTermsTest on LAPTOP-R4PC1KLI with PID 9440 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 06:57:48.341 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - No active profile set, falling back to default profiles: default
+2019-09-18 06:57:55.095 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 06:57:55.106 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 06:57:55.181 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+2019-09-18 06:57:55.203 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 06:57:55.205 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 06:57:55.264 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+2019-09-18 06:57:56.777 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c4862f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 06:57:56.845 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ab7c0480] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 06:57:57.720 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 06:57:57.957 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 06:57:57.961 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 06:57:58.282 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 06:57:59.235 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 06:57:59.584 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 06:58:03.114 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 06:58:04.531 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 06:58:04.565 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 06:58:04.584 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 06:58:05.009 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 06:58:05.026 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Started InitSolarTermsTest in 17.999 seconds (JVM running for 19.699)
+2019-09-18 06:58:05.442 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 06:58:05.446 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 06:58:05.452 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 06:58:05.455 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 06:59:09.512 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Starting InitSolarTermsTest on LAPTOP-R4PC1KLI with PID 9800 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 06:59:09.516 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - No active profile set, falling back to default profiles: default
+2019-09-18 06:59:15.573 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 06:59:15.581 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 06:59:15.667 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2019-09-18 06:59:15.724 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 06:59:15.726 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 06:59:15.820 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 repository interfaces.
+2019-09-18 06:59:16.876 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32be29bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 06:59:16.954 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$c1f1cb4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 06:59:17.849 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 06:59:18.134 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 06:59:18.137 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 06:59:18.411 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 06:59:19.287 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 06:59:19.625 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 06:59:23.339 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 06:59:24.817 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 06:59:24.934 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 06:59:24.978 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 06:59:25.450 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 06:59:25.468 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Started InitSolarTermsTest in 17.283 seconds (JVM running for 18.899)
+2019-09-18 06:59:30.664 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 06:59:30.666 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 06:59:30.675 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 06:59:30.679 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 22:00:57.945 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Starting DefaultBirthSolarTermsDealTest on LAPTOP-R4PC1KLI with PID 4740 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 22:00:57.970 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - No active profile set, falling back to default profiles: default
+2019-09-18 22:01:04.179 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:01:04.188 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:01:04.269 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+2019-09-18 22:01:04.309 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:01:04.310 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:01:04.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+2019-09-18 22:01:05.478 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ff894a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:01:05.571 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ef2c362e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:01:06.560 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 22:01:06.848 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 22:01:06.852 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 22:01:07.147 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 22:01:08.015 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 22:01:08.329 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:01:11.868 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:01:13.236 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 22:01:13.264 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 22:01:13.285 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 22:01:13.688 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 22:01:13.704 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Started DefaultBirthSolarTermsDealTest in 16.967 seconds (JVM running for 18.655)
+2019-09-18 22:01:14.032 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - paipanRunDTO:PaipanRunDTO(paipanDTO=PaipanDTO(name=null, sex=null, birthDateTime=null, sunOrlun=0, trueSunbirthDateTime=1991-05-25 07:30, birthPlace=null, areLunarCalendar=false, areLeapMonth=false), eightCharacterDTO=null, lunarDate=null, solarYear=1991, solarTermIdx=0)
+2019-09-18 22:01:14.059 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:01:14.063 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:01:14.071 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 22:01:14.079 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 22:03:28.819 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Starting DefaultBirthSolarTermsDealTest on LAPTOP-R4PC1KLI with PID 956 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 22:03:28.827 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - No active profile set, falling back to default profiles: default
+2019-09-18 22:03:35.107 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:03:35.111 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:03:35.195 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-09-18 22:03:35.315 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:03:35.318 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:03:35.392 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-09-18 22:03:36.672 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a984a950] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:03:36.748 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$38b84adc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:03:37.788 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 22:03:38.105 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 22:03:38.110 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 22:03:38.413 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 22:03:39.523 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 22:03:40.118 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:03:44.544 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:03:46.320 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 22:03:46.379 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 22:03:46.408 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 22:03:46.872 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 22:03:46.891 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Started DefaultBirthSolarTermsDealTest in 19.829 seconds (JVM running for 21.661)
+2019-09-18 22:06:27.189 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - paipanRunDTO:PaipanRunDTO(paipanDTO=PaipanDTO(name=null, sex=null, birthDateTime=null, sunOrlun=0, trueSunbirthDateTime=1991-05-25 07:30, birthPlace=null, areLunarCalendar=false, areLeapMonth=false), eightCharacterDTO=null, lunarDate=null, solarYear=1991, solarTermIdx=0)
+2019-09-18 22:06:27.224 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:06:27.228 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:06:27.238 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 22:06:27.245 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 22:06:34.511 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Starting DefaultBirthSolarTermsDealTest on LAPTOP-R4PC1KLI with PID 14200 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 22:06:34.515 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - No active profile set, falling back to default profiles: default
+2019-09-18 22:06:40.238 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:06:40.249 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:06:40.427 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100ms. Found 0 repository interfaces.
+2019-09-18 22:06:40.531 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:06:40.537 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:06:40.635 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 0 repository interfaces.
+2019-09-18 22:06:42.192 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a194fa5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:06:42.291 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$a94cf131] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:06:43.603 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 22:06:44.039 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 22:06:44.042 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 22:06:44.436 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 22:06:45.439 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 22:06:45.867 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:06:49.567 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:06:50.947 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 22:06:50.986 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 22:06:51.010 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 22:06:51.506 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 22:06:51.532 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Started DefaultBirthSolarTermsDealTest in 18.219 seconds (JVM running for 19.826)
+2019-09-18 22:06:51.826 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - paipanRunDTO:PaipanRunDTO(paipanDTO=PaipanDTO(name=null, sex=null, birthDateTime=null, sunOrlun=0, trueSunbirthDateTime=1991-05-25 07:30, birthPlace=null, areLunarCalendar=false, areLeapMonth=false), eightCharacterDTO=null, lunarDate=null, solarYear=1991, solarTermIdx=4)
+2019-09-18 22:06:51.858 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:06:51.864 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:06:51.869 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 22:06:51.873 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 22:09:12.874 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Starting DefaultBirthSolarTermsDealTest on LAPTOP-R4PC1KLI with PID 812 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 22:09:12.880 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - No active profile set, falling back to default profiles: default
+2019-09-18 22:09:18.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:09:18.145 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:09:18.426 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99ms. Found 0 repository interfaces.
+2019-09-18 22:09:18.516 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:09:18.520 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:09:18.646 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 0 repository interfaces.
+2019-09-18 22:09:20.193 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c4862f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:09:20.281 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ab7c0480] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:09:21.375 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 22:09:21.716 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 22:09:21.721 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 22:09:22.123 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 22:09:23.806 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 22:09:24.476 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:09:29.994 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:09:31.203 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 22:09:31.252 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 22:09:31.275 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 22:09:31.623 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 22:09:31.641 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Started DefaultBirthSolarTermsDealTest in 19.994 seconds (JVM running for 21.732)
+2019-09-18 22:09:31.929 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - paipanRunDTO:PaipanRunDTO(paipanDTO=PaipanDTO(name=null, sex=null, birthDateTime=null, sunOrlun=0, trueSunbirthDateTime=1991-01-25 07:30, birthPlace=null, areLunarCalendar=false, areLeapMonth=false), eightCharacterDTO=null, lunarDate=null, solarYear=1990, solarTermIdx=21)
+2019-09-18 22:09:31.953 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:09:31.957 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:09:31.962 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 22:09:31.965 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 22:30:49.445 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Starting InitSolarTermsTest on LAPTOP-R4PC1KLI with PID 13904 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 22:30:49.449 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - No active profile set, falling back to default profiles: default
+2019-09-18 22:30:55.970 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:30:55.973 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:30:56.076 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61ms. Found 0 repository interfaces.
+2019-09-18 22:30:56.291 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:30:56.293 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:30:56.327 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-09-18 22:30:57.360 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24127af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:30:57.453 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$9174c93b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:30:58.346 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 22:30:58.629 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 22:30:58.633 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 22:30:58.892 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 22:30:59.878 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 22:31:00.229 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:31:03.895 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:31:05.248 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 22:31:05.285 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 22:31:05.303 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 22:31:05.690 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 22:31:05.707 [main] INFO  c.b.horoscope.paipan.solarterms.InitSolarTermsTest - Started InitSolarTermsTest in 17.468 seconds (JVM running for 19.024)
+2019-09-18 22:31:10.588 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:31:10.592 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:31:10.601 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 22:31:10.608 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-09-18 22:36:47.267 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Starting DefaultBirthSolarTermsDealTest on LAPTOP-R4PC1KLI with PID 6432 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-09-18 22:36:47.272 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - No active profile set, falling back to default profiles: default
+2019-09-18 22:36:52.692 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:36:52.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:36:52.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 0 repository interfaces.
+2019-09-18 22:36:52.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-18 22:36:52.841 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-18 22:36:53.011 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 repository interfaces.
+2019-09-18 22:36:54.294 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$236152a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:36:54.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.boc.horoscope.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$b294f42e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-18 22:36:55.264 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,test} inited
+2019-09-18 22:36:55.550 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-18 22:36:55.557 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-09-18 22:36:55.810 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-18 22:36:56.654 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-18 22:36:57.203 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:37:00.981 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:37:02.389 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-18 22:37:02.420 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-18 22:37:02.439 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-18 22:37:02.908 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-09-18 22:37:02.923 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - Started DefaultBirthSolarTermsDealTest in 16.867 seconds (JVM running for 18.56)
+2019-09-18 22:37:03.261 [main] INFO  c.b.h.p.solarterms.DefaultBirthSolarTermsDealTest - paipanRunDTO:PaipanRunDTO(paipanDTO=PaipanDTO(name=null, sex=null, birthDateTime=null, sunOrlun=0, trueSunbirthDateTime=1991-05-25 07:30, birthPlace=null, areLunarCalendar=false, areLeapMonth=false), eightCharacterDTO=null, lunarDate=null, solarYear=1991, solarTermIdx=7)
+2019-09-18 22:37:03.294 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-18 22:37:03.298 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-18 22:37:03.301 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-18 22:37:03.305 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.boc.horoscope.horos.mapper.CnRegionInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.boc.horoscope.horos.po.CnRegionInfo" >
+    <id column="CRI_ID" property="criId" jdbcType="INTEGER" />
+    <result column="CRI_CODE" property="criCode" jdbcType="VARCHAR" />
+    <result column="CRI_NAME" property="criName" jdbcType="VARCHAR" />
+    <result column="CRI_SHORT_NAME" property="criShortName" jdbcType="VARCHAR" />
+    <result column="CRI_SUPERIOR_CODE" property="criSuperiorCode" jdbcType="VARCHAR" />
+    <result column="CRI_LNG" property="criLng" jdbcType="VARCHAR" />
+    <result column="CRI_LAT" property="criLat" jdbcType="VARCHAR" />
+    <result column="CRI_SORT" property="criSort" jdbcType="INTEGER" />
+    <result column="CRI_GMT_CREATE" property="criGmtCreate" jdbcType="TIMESTAMP" />
+    <result column="CRI_GMT_MODIFIED" property="criGmtModified" jdbcType="TIMESTAMP" />
+    <result column="CRI_MEMO" property="criMemo" jdbcType="VARCHAR" />
+    <result column="CRI_DATA_STATE" property="criDataState" jdbcType="INTEGER" />
+    <result column="CRI_TENANT_CODE" property="criTenantCode" jdbcType="VARCHAR" />
+    <result column="CRI_LEVEL" property="criLevel" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    CRI_ID, CRI_CODE, CRI_NAME, CRI_SHORT_NAME, CRI_SUPERIOR_CODE, CRI_LNG, CRI_LAT, 
+    CRI_SORT, CRI_GMT_CREATE, CRI_GMT_MODIFIED, CRI_MEMO, CRI_DATA_STATE, CRI_TENANT_CODE, 
+    CRI_LEVEL
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from cn_region_info
+    where CRI_ID = #{criId,jdbcType=INTEGER}
+  </select>
+  <select id="selectByCriCode" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from cn_region_info
+    where CRI_CODE = #{criCode,jdbcType=VARCHAR}
+  </select>
+  <select id="selectBySuperCriCode" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from cn_region_info
+    where CRI_SUPERIOR_CODE = #{superiorCode,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from cn_region_info
+    where CRI_ID = #{criId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.boc.horoscope.horos.po.CnRegionInfo" >
+    insert into cn_region_info (CRI_ID, CRI_CODE, CRI_NAME, 
+      CRI_SHORT_NAME, CRI_SUPERIOR_CODE, CRI_LNG, 
+      CRI_LAT, CRI_SORT, CRI_GMT_CREATE, 
+      CRI_GMT_MODIFIED, CRI_MEMO, CRI_DATA_STATE, 
+      CRI_TENANT_CODE, CRI_LEVEL)
+    values (#{criId,jdbcType=INTEGER}, #{criCode,jdbcType=VARCHAR}, #{criName,jdbcType=VARCHAR}, 
+      #{criShortName,jdbcType=VARCHAR}, #{criSuperiorCode,jdbcType=VARCHAR}, #{criLng,jdbcType=VARCHAR}, 
+      #{criLat,jdbcType=VARCHAR}, #{criSort,jdbcType=INTEGER}, #{criGmtCreate,jdbcType=TIMESTAMP}, 
+      #{criGmtModified,jdbcType=TIMESTAMP}, #{criMemo,jdbcType=VARCHAR}, #{criDataState,jdbcType=INTEGER}, 
+      #{criTenantCode,jdbcType=VARCHAR}, #{criLevel,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.boc.horoscope.horos.po.CnRegionInfo" >
+    insert into cn_region_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="criId != null" >
+        CRI_ID,
+      </if>
+      <if test="criCode != null" >
+        CRI_CODE,
+      </if>
+      <if test="criName != null" >
+        CRI_NAME,
+      </if>
+      <if test="criShortName != null" >
+        CRI_SHORT_NAME,
+      </if>
+      <if test="criSuperiorCode != null" >
+        CRI_SUPERIOR_CODE,
+      </if>
+      <if test="criLng != null" >
+        CRI_LNG,
+      </if>
+      <if test="criLat != null" >
+        CRI_LAT,
+      </if>
+      <if test="criSort != null" >
+        CRI_SORT,
+      </if>
+      <if test="criGmtCreate != null" >
+        CRI_GMT_CREATE,
+      </if>
+      <if test="criGmtModified != null" >
+        CRI_GMT_MODIFIED,
+      </if>
+      <if test="criMemo != null" >
+        CRI_MEMO,
+      </if>
+      <if test="criDataState != null" >
+        CRI_DATA_STATE,
+      </if>
+      <if test="criTenantCode != null" >
+        CRI_TENANT_CODE,
+      </if>
+      <if test="criLevel != null" >
+        CRI_LEVEL,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="criId != null" >
+        #{criId,jdbcType=INTEGER},
+      </if>
+      <if test="criCode != null" >
+        #{criCode,jdbcType=VARCHAR},
+      </if>
+      <if test="criName != null" >
+        #{criName,jdbcType=VARCHAR},
+      </if>
+      <if test="criShortName != null" >
+        #{criShortName,jdbcType=VARCHAR},
+      </if>
+      <if test="criSuperiorCode != null" >
+        #{criSuperiorCode,jdbcType=VARCHAR},
+      </if>
+      <if test="criLng != null" >
+        #{criLng,jdbcType=VARCHAR},
+      </if>
+      <if test="criLat != null" >
+        #{criLat,jdbcType=VARCHAR},
+      </if>
+      <if test="criSort != null" >
+        #{criSort,jdbcType=INTEGER},
+      </if>
+      <if test="criGmtCreate != null" >
+        #{criGmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="criGmtModified != null" >
+        #{criGmtModified,jdbcType=TIMESTAMP},
+      </if>
+      <if test="criMemo != null" >
+        #{criMemo,jdbcType=VARCHAR},
+      </if>
+      <if test="criDataState != null" >
+        #{criDataState,jdbcType=INTEGER},
+      </if>
+      <if test="criTenantCode != null" >
+        #{criTenantCode,jdbcType=VARCHAR},
+      </if>
+      <if test="criLevel != null" >
+        #{criLevel,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.boc.horoscope.horos.po.CnRegionInfo" >
+    update cn_region_info
+    <set >
+      <if test="criCode != null" >
+        CRI_CODE = #{criCode,jdbcType=VARCHAR},
+      </if>
+      <if test="criName != null" >
+        CRI_NAME = #{criName,jdbcType=VARCHAR},
+      </if>
+      <if test="criShortName != null" >
+        CRI_SHORT_NAME = #{criShortName,jdbcType=VARCHAR},
+      </if>
+      <if test="criSuperiorCode != null" >
+        CRI_SUPERIOR_CODE = #{criSuperiorCode,jdbcType=VARCHAR},
+      </if>
+      <if test="criLng != null" >
+        CRI_LNG = #{criLng,jdbcType=VARCHAR},
+      </if>
+      <if test="criLat != null" >
+        CRI_LAT = #{criLat,jdbcType=VARCHAR},
+      </if>
+      <if test="criSort != null" >
+        CRI_SORT = #{criSort,jdbcType=INTEGER},
+      </if>
+      <if test="criGmtCreate != null" >
+        CRI_GMT_CREATE = #{criGmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="criGmtModified != null" >
+        CRI_GMT_MODIFIED = #{criGmtModified,jdbcType=TIMESTAMP},
+      </if>
+      <if test="criMemo != null" >
+        CRI_MEMO = #{criMemo,jdbcType=VARCHAR},
+      </if>
+      <if test="criDataState != null" >
+        CRI_DATA_STATE = #{criDataState,jdbcType=INTEGER},
+      </if>
+      <if test="criTenantCode != null" >
+        CRI_TENANT_CODE = #{criTenantCode,jdbcType=VARCHAR},
+      </if>
+      <if test="criLevel != null" >
+        CRI_LEVEL = #{criLevel,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where CRI_ID = #{criId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.boc.horoscope.horos.po.CnRegionInfo" >
+    update cn_region_info
+    set CRI_CODE = #{criCode,jdbcType=VARCHAR},
+      CRI_NAME = #{criName,jdbcType=VARCHAR},
+      CRI_SHORT_NAME = #{criShortName,jdbcType=VARCHAR},
+      CRI_SUPERIOR_CODE = #{criSuperiorCode,jdbcType=VARCHAR},
+      CRI_LNG = #{criLng,jdbcType=VARCHAR},
+      CRI_LAT = #{criLat,jdbcType=VARCHAR},
+      CRI_SORT = #{criSort,jdbcType=INTEGER},
+      CRI_GMT_CREATE = #{criGmtCreate,jdbcType=TIMESTAMP},
+      CRI_GMT_MODIFIED = #{criGmtModified,jdbcType=TIMESTAMP},
+      CRI_MEMO = #{criMemo,jdbcType=VARCHAR},
+      CRI_DATA_STATE = #{criDataState,jdbcType=INTEGER},
+      CRI_TENANT_CODE = #{criTenantCode,jdbcType=VARCHAR},
+      CRI_LEVEL = #{criLevel,jdbcType=VARCHAR}
+    where CRI_ID = #{criId,jdbcType=INTEGER}
+  </update>
+</mapper>

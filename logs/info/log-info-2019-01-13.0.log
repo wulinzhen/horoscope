@@ -1,0 +1,57 @@
+2019-01-13 17:24:20.651 [main] INFO  com.boc.TestAnnotationClassTest - test00
+2019-01-13 17:27:53.670 [main] INFO  com.boc.TestAnnotationClassTest - test00
+2019-01-13 17:30:31.214 [main] INFO  com.boc.TestAnnotationClassTest - test00
+2019-01-13 17:36:52.285 [main] INFO  com.boc.TestAnnotationClassTest - test00
+2019-01-13 17:41:36.081 [main] INFO  com.boc.horoscope.HoroscopeApplicationTests - Starting HoroscopeApplicationTests on LAPTOP-R4PC1KLI with PID 13388 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-01-13 17:41:36.098 [main] INFO  com.boc.horoscope.HoroscopeApplicationTests - No active profile set, falling back to default profiles: default
+2019-01-13 17:41:43.603 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-13 17:43:41.622 [main] INFO  com.boc.TestAnnotationClassTest - test00
+2019-01-13 17:43:55.817 [main] INFO  com.boc.TestAnnotationClassTest - test00
+2019-01-13 18:07:58.252 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Starting TestAnnotationClassTest on LAPTOP-R4PC1KLI with PID 12020 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-01-13 18:07:58.259 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - No active profile set, falling back to default profiles: default
+2019-01-13 18:08:06.286 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-13 18:12:28.923 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Starting TestAnnotationClassTest on LAPTOP-R4PC1KLI with PID 6520 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-01-13 18:12:28.933 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - No active profile set, falling back to default profiles: default
+2019-01-13 18:12:33.821 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-13 18:12:40.364 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-13 18:12:40.402 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-13 18:12:40.436 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-13 18:12:41.018 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Started TestAnnotationClassTest in 13.558 seconds (JVM running for 15.786)
+2019-01-13 18:12:41.194 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - test00
+2019-01-13 18:12:41.569 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-13 18:13:08.304 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Starting TestAnnotationClassTest on LAPTOP-R4PC1KLI with PID 6840 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-01-13 18:13:08.309 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - No active profile set, falling back to default profiles: default
+2019-01-13 18:13:12.918 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-13 18:13:19.717 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-13 18:13:19.764 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-13 18:13:19.795 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-13 18:13:20.917 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Started TestAnnotationClassTest in 14.294 seconds (JVM running for 16.703)
+2019-01-13 18:13:21.043 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - test00
+2019-01-13 18:13:21.084 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-13 18:16:16.144 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Starting TestAnnotationClassTest on LAPTOP-R4PC1KLI with PID 12444 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-01-13 18:16:16.150 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - No active profile set, falling back to default profiles: default
+2019-01-13 18:16:21.371 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-13 18:16:29.083 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-13 18:16:29.145 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-13 18:16:29.173 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-13 18:16:29.902 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Started TestAnnotationClassTest in 16.718 seconds (JVM running for 19.349)
+2019-01-13 18:16:30.057 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - test00
+2019-01-13 18:16:30.096 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-13 18:31:29.652 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Starting TestAnnotationClassTest on LAPTOP-R4PC1KLI with PID 13936 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-01-13 18:31:29.658 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - No active profile set, falling back to default profiles: default
+2019-01-13 18:31:33.848 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-13 18:31:40.303 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-13 18:31:40.345 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-13 18:31:40.366 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-13 18:31:40.729 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Started TestAnnotationClassTest in 12.141 seconds (JVM running for 14.966)
+2019-01-13 18:31:40.859 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - test00
+2019-01-13 18:31:40.894 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-13 18:36:52.845 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Starting TestAnnotationClassTest on LAPTOP-R4PC1KLI with PID 10620 (started by 89144 in D:\dev\worker\horoscoparent\horoscope)
+2019-01-13 18:36:52.849 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - No active profile set, falling back to default profiles: default
+2019-01-13 18:36:56.521 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-13 18:37:01.821 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-13 18:37:01.849 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-13 18:37:01.867 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-13 18:37:02.243 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - Started TestAnnotationClassTest in 10.543 seconds (JVM running for 13.228)
+2019-01-13 18:37:02.376 [main] INFO  com.boc.horoscope.test.TestAnnotationClassTest - test00
+2019-01-13 18:37:02.413 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

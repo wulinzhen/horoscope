@@ -1,0 +1,14 @@
+2018-12-23 16:47:15.297 [main] INFO  com.boc.horoscope.HoroscopeApplication - Starting HoroscopeApplication v0.0.1-SNAPSHOT on LAPTOP-R4PC1KLI with PID 15112 (D:\dev\worker\horoscoparent\horoscope\target\horoscope-0.0.1-SNAPSHOT.jar started by 89144 in D:\dev\worker\horoscoparent\horoscope\target)
+2018-12-23 16:47:15.305 [main] INFO  com.boc.horoscope.HoroscopeApplication - No active profile set, falling back to default profiles: default
+2018-12-23 16:47:21.933 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-23 16:47:29.068 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-23 16:47:29.125 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-12-23 16:47:29.159 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-23 16:47:29.792 [main] INFO  com.boc.horoscope.HoroscopeApplication - Started HoroscopeApplication in 15.579 seconds (JVM running for 16.354)
+2018-12-23 16:47:52.482 [main] INFO  com.boc.horoscope.HoroscopeApplication - Starting HoroscopeApplication v0.0.1-SNAPSHOT on LAPTOP-R4PC1KLI with PID 10956 (D:\dev\worker\horoscoparent\horoscope\target\horoscope-0.0.1-SNAPSHOT.jar started by 89144 in D:\dev\worker\horoscoparent\horoscope\target)
+2018-12-23 16:47:52.504 [main] INFO  com.boc.horoscope.HoroscopeApplication - No active profile set, falling back to default profiles: default
+2018-12-23 16:47:58.305 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-23 16:48:03.165 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-23 16:48:03.230 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-12-23 16:48:03.272 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-23 16:48:04.424 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,38 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /horoscope
+spring:
+  datasource:
+    db1:
+      name: test
+      url : jdbc:mysql://localhost:3306/horoscope?useUnicode=true&characterEncoding=utf8&autoReconnect=true
+      username : root
+      password : wlz19890825
+      type : com.alibaba.druid.pool.DruidDataSource
+      driverClassName : com.mysql.cj.jdbc.Driver
+      filters : stat
+      maxActive : 20
+      initialSize : 1
+      maxWait : 60000
+      minIdle : 1
+      timeBetweenEvictionRunsMillis : 60000
+      minEvictableIdleTimeMillis : 300000
+      validationQuery : SELECT 1
+      testWhileIdle : true
+      testOnBorrow : false
+      testOnReturn : false
+      poolPreparedStatements : true
+      maxOpenPreparedStatements : 20
+
+
+mybatis:
+  # 配置xml 的扫描路径
+  mapper-locations: classpath*:com/boc/horoscope/*/**/mapping/*.xml
+  check-config-location: true
+  type-aliases-package: com.boc.horoscope.*.**.po
+
+
+
+logging:
+  config: classpath:config/logback-spring.xml

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.boc.horoscope.horos.mapper.HsFiveElementRelationMapper" >
+  <resultMap id="BaseResultMap" type="com.boc.horoscope.horos.po.HsFiveElementRelation" >
+    <result column="main_five_element" property="mainFiveElement" jdbcType="CHAR" />
+    <result column="rel_five_element" property="relFiveElement" jdbcType="CHAR" />
+    <result column="reltion" property="reltion" jdbcType="CHAR" />
+    <result column="ten_god" property="tenGod" jdbcType="CHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.boc.horoscope.horos.po.HsFiveElementRelation" >
+    insert into hs_five_element_relation (main_five_element, rel_five_element, reltion, 
+      ten_god)
+    values (#{mainFiveElement,jdbcType=CHAR}, #{relFiveElement,jdbcType=CHAR}, #{reltion,jdbcType=CHAR}, 
+      #{tenGod,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.boc.horoscope.horos.po.HsFiveElementRelation" >
+    insert into hs_five_element_relation
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="mainFiveElement != null" >
+        main_five_element,
+      </if>
+      <if test="relFiveElement != null" >
+        rel_five_element,
+      </if>
+      <if test="reltion != null" >
+        reltion,
+      </if>
+      <if test="tenGod != null" >
+        ten_god,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="mainFiveElement != null" >
+        #{mainFiveElement,jdbcType=CHAR},
+      </if>
+      <if test="relFiveElement != null" >
+        #{relFiveElement,jdbcType=CHAR},
+      </if>
+      <if test="reltion != null" >
+        #{reltion,jdbcType=CHAR},
+      </if>
+      <if test="tenGod != null" >
+        #{tenGod,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    SELECT * FROM hs_five_element_relation
+  </select>
+</mapper>

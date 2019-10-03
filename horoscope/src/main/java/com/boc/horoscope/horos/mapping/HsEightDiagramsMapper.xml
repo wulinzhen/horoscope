@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.boc.horoscope.horos.mapper.HsEightDiagramsMapper" >
+  <resultMap id="BaseResultMap" type="com.boc.horoscope.horos.po.HsEightDiagrams" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="CHAR" />
+    <result column="position" property="position" jdbcType="VARCHAR" />
+    <result column="five_element" property="fiveElement" jdbcType="CHAR" />
+    <result column="universe" property="universe" jdbcType="CHAR" />
+    <result column="family" property="family" jdbcType="CHAR" />
+    <result column="animal" property="animal" jdbcType="CHAR" />
+    <result column="body" property="body" jdbcType="CHAR" />
+    <result column="sports" property="sports" jdbcType="CHAR" />
+    <result column="img" property="img" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, name, position, five_element, universe, family, animal, body, sports,img
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from hs_eight_diagrams
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from hs_eight_diagrams
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.boc.horoscope.horos.po.HsEightDiagrams" >
+    insert into hs_eight_diagrams (id, name, position, 
+      five_element, universe, family, 
+      animal, body, sports, img
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=CHAR}, #{position,jdbcType=VARCHAR}, 
+      #{fiveElement,jdbcType=CHAR}, #{universe,jdbcType=CHAR}, #{family,jdbcType=CHAR}, 
+      #{animal,jdbcType=CHAR}, #{body,jdbcType=CHAR}, #{sports,jdbcType=CHAR}, #{img,jdbcType=LONGVARBINARY}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.boc.horoscope.horos.po.HsEightDiagrams" >
+    insert into hs_eight_diagrams
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="position != null" >
+        position,
+      </if>
+      <if test="fiveElement != null" >
+        five_element,
+      </if>
+      <if test="universe != null" >
+        universe,
+      </if>
+      <if test="family != null" >
+        family,
+      </if>
+      <if test="animal != null" >
+        animal,
+      </if>
+      <if test="body != null" >
+        body,
+      </if>
+      <if test="sports != null" >
+        sports,
+      </if>
+      <if test="img != null" >
+        img,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=CHAR},
+      </if>
+      <if test="position != null" >
+        #{position,jdbcType=VARCHAR},
+      </if>
+      <if test="fiveElement != null" >
+        #{fiveElement,jdbcType=CHAR},
+      </if>
+      <if test="universe != null" >
+        #{universe,jdbcType=CHAR},
+      </if>
+      <if test="family != null" >
+        #{family,jdbcType=CHAR},
+      </if>
+      <if test="animal != null" >
+        #{animal,jdbcType=CHAR},
+      </if>
+      <if test="body != null" >
+        #{body,jdbcType=CHAR},
+      </if>
+      <if test="sports != null" >
+        #{sports,jdbcType=CHAR},
+      </if>
+      <if test="img != null" >
+        #{img,jdbcType=LONGVARBINARY},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.boc.horoscope.horos.po.HsEightDiagrams" >
+    update hs_eight_diagrams
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=CHAR},
+      </if>
+      <if test="position != null" >
+        position = #{position,jdbcType=VARCHAR},
+      </if>
+      <if test="fiveElement != null" >
+        five_element = #{fiveElement,jdbcType=CHAR},
+      </if>
+      <if test="universe != null" >
+        universe = #{universe,jdbcType=CHAR},
+      </if>
+      <if test="family != null" >
+        family = #{family,jdbcType=CHAR},
+      </if>
+      <if test="animal != null" >
+        animal = #{animal,jdbcType=CHAR},
+      </if>
+      <if test="body != null" >
+        body = #{body,jdbcType=CHAR},
+      </if>
+      <if test="sports != null" >
+        sports = #{sports,jdbcType=CHAR},
+      </if>
+      <if test="img != null" >
+        img = #{img,jdbcType=LONGVARBINARY},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.boc.horoscope.horos.po.HsEightDiagrams" >
+    update hs_eight_diagrams
+    set name = #{name,jdbcType=CHAR},
+      position = #{position,jdbcType=VARCHAR},
+      five_element = #{fiveElement,jdbcType=CHAR},
+      universe = #{universe,jdbcType=CHAR},
+      family = #{family,jdbcType=CHAR},
+      animal = #{animal,jdbcType=CHAR},
+      body = #{body,jdbcType=CHAR},
+      sports = #{sports,jdbcType=CHAR},
+      img = #{img,jdbcType=LONGVARBINARY}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.boc.horoscope.horos.po.HsEightDiagrams" >
+    update hs_eight_diagrams
+    set name = #{name,jdbcType=CHAR},
+      position = #{position,jdbcType=VARCHAR},
+      five_element = #{fiveElement,jdbcType=CHAR},
+      universe = #{universe,jdbcType=CHAR},
+      family = #{family,jdbcType=CHAR},
+      animal = #{animal,jdbcType=CHAR},
+      body = #{body,jdbcType=CHAR},
+      sports = #{sports,jdbcType=CHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

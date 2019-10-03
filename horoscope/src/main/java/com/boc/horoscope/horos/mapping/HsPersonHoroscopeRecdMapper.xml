@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.boc.horoscope.horos.mapper.HsPersonHoroscopeRecdMapper" >
+  <resultMap id="BaseResultMap" type="com.boc.horoscope.horos.po.HsPersonHoroscopeRecd" >
+    <id column="id" property="id" jdbcType="CHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="eight_character" property="eightCharacter" jdbcType="CHAR" />
+    <result column="year_heavenly" property="yearHeavenly" jdbcType="CHAR" />
+    <result column="year_branch" property="yearBranch" jdbcType="CHAR" />
+    <result column="month_heavenly" property="monthHeavenly" jdbcType="CHAR" />
+    <result column="month_branch" property="monthBranch" jdbcType="CHAR" />
+    <result column="day_heavenly" property="dayHeavenly" jdbcType="CHAR" />
+    <result column="day_branch" property="dayBranch" jdbcType="CHAR" />
+    <result column="hours_heavenly" property="hoursHeavenly" jdbcType="CHAR" />
+    <result column="hours_branch" property="hoursBranch" jdbcType="CHAR" />
+    <result column="big_luck" property="bigLuck" jdbcType="VARCHAR" />
+    <result column="zi_ping_pattern" property="ziPingPattern" jdbcType="VARCHAR" />
+    <result column="comment_main" property="commentMain" jdbcType="VARCHAR" />
+    <result column="main_experience" property="mainExperience" jdbcType="VARCHAR" />
+    <result column="birth_date_time" property="birthDateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, sex, eight_character, year_heavenly, year_branch, month_heavenly, month_branch, 
+    day_heavenly, day_branch, hours_heavenly, hours_branch, big_luck, zi_ping_pattern, 
+    comment_main, main_experience, birth_date_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from hs_person_horoscope_recd
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from hs_person_horoscope_recd
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="com.boc.horoscope.horos.po.HsPersonHoroscopeRecd" >
+    insert into hs_person_horoscope_recd (id, name, sex, eight_character, 
+      year_heavenly, year_branch, month_heavenly, 
+      month_branch, day_heavenly, day_branch, 
+      hours_heavenly, hours_branch, big_luck, 
+      zi_ping_pattern, comment_main, main_experience, 
+      birth_date_time)
+    values (#{id,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{sex,jdbcType=INTEGER}, #{eightCharacter,jdbcType=CHAR}, 
+      #{yearHeavenly,jdbcType=CHAR}, #{yearBranch,jdbcType=CHAR}, #{monthHeavenly,jdbcType=CHAR}, 
+      #{monthBranch,jdbcType=CHAR}, #{dayHeavenly,jdbcType=CHAR}, #{dayBranch,jdbcType=CHAR}, 
+      #{hoursHeavenly,jdbcType=CHAR}, #{hoursBranch,jdbcType=CHAR}, #{bigLuck,jdbcType=VARCHAR}, 
+      #{ziPingPattern,jdbcType=VARCHAR}, #{commentMain,jdbcType=VARCHAR}, #{mainExperience,jdbcType=VARCHAR}, 
+      #{birthDateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.boc.horoscope.horos.po.HsPersonHoroscopeRecd" >
+    insert into hs_person_horoscope_recd
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="eightCharacter != null" >
+        eight_character,
+      </if>
+      <if test="yearHeavenly != null" >
+        year_heavenly,
+      </if>
+      <if test="yearBranch != null" >
+        year_branch,
+      </if>
+      <if test="monthHeavenly != null" >
+        month_heavenly,
+      </if>
+      <if test="monthBranch != null" >
+        month_branch,
+      </if>
+      <if test="dayHeavenly != null" >
+        day_heavenly,
+      </if>
+      <if test="dayBranch != null" >
+        day_branch,
+      </if>
+      <if test="hoursHeavenly != null" >
+        hours_heavenly,
+      </if>
+      <if test="hoursBranch != null" >
+        hours_branch,
+      </if>
+      <if test="bigLuck != null" >
+        big_luck,
+      </if>
+      <if test="ziPingPattern != null" >
+        zi_ping_pattern,
+      </if>
+      <if test="commentMain != null" >
+        comment_main,
+      </if>
+      <if test="mainExperience != null" >
+        main_experience,
+      </if>
+      <if test="birthDateTime != null" >
+        birth_date_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=INTEGER},
+      </if>
+      <if test="eightCharacter != null" >
+        #{eightCharacter,jdbcType=CHAR},
+      </if>
+      <if test="yearHeavenly != null" >
+        #{yearHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="yearBranch != null" >
+        #{yearBranch,jdbcType=CHAR},
+      </if>
+      <if test="monthHeavenly != null" >
+        #{monthHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="monthBranch != null" >
+        #{monthBranch,jdbcType=CHAR},
+      </if>
+      <if test="dayHeavenly != null" >
+        #{dayHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="dayBranch != null" >
+        #{dayBranch,jdbcType=CHAR},
+      </if>
+      <if test="hoursHeavenly != null" >
+        #{hoursHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="hoursBranch != null" >
+        #{hoursBranch,jdbcType=CHAR},
+      </if>
+      <if test="bigLuck != null" >
+        #{bigLuck,jdbcType=VARCHAR},
+      </if>
+      <if test="ziPingPattern != null" >
+        #{ziPingPattern,jdbcType=VARCHAR},
+      </if>
+      <if test="commentMain != null" >
+        #{commentMain,jdbcType=VARCHAR},
+      </if>
+      <if test="mainExperience != null" >
+        #{mainExperience,jdbcType=VARCHAR},
+      </if>
+      <if test="birthDateTime != null" >
+        #{birthDateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.boc.horoscope.horos.po.HsPersonHoroscopeRecd" >
+    update hs_person_horoscope_recd
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=INTEGER},
+      </if>
+      <if test="eightCharacter != null" >
+        eight_character = #{eightCharacter,jdbcType=CHAR},
+      </if>
+      <if test="yearHeavenly != null" >
+        year_heavenly = #{yearHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="yearBranch != null" >
+        year_branch = #{yearBranch,jdbcType=CHAR},
+      </if>
+      <if test="monthHeavenly != null" >
+        month_heavenly = #{monthHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="monthBranch != null" >
+        month_branch = #{monthBranch,jdbcType=CHAR},
+      </if>
+      <if test="dayHeavenly != null" >
+        day_heavenly = #{dayHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="dayBranch != null" >
+        day_branch = #{dayBranch,jdbcType=CHAR},
+      </if>
+      <if test="hoursHeavenly != null" >
+        hours_heavenly = #{hoursHeavenly,jdbcType=CHAR},
+      </if>
+      <if test="hoursBranch != null" >
+        hours_branch = #{hoursBranch,jdbcType=CHAR},
+      </if>
+      <if test="bigLuck != null" >
+        big_luck = #{bigLuck,jdbcType=VARCHAR},
+      </if>
+      <if test="ziPingPattern != null" >
+        zi_ping_pattern = #{ziPingPattern,jdbcType=VARCHAR},
+      </if>
+      <if test="commentMain != null" >
+        comment_main = #{commentMain,jdbcType=VARCHAR},
+      </if>
+      <if test="mainExperience != null" >
+        main_experience = #{mainExperience,jdbcType=VARCHAR},
+      </if>
+      <if test="birthDateTime != null" >
+        birth_date_time = #{birthDateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.boc.horoscope.horos.po.HsPersonHoroscopeRecd" >
+    update hs_person_horoscope_recd
+    set name = #{name,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=INTEGER},
+      eight_character = #{eightCharacter,jdbcType=CHAR},
+      year_heavenly = #{yearHeavenly,jdbcType=CHAR},
+      year_branch = #{yearBranch,jdbcType=CHAR},
+      month_heavenly = #{monthHeavenly,jdbcType=CHAR},
+      month_branch = #{monthBranch,jdbcType=CHAR},
+      day_heavenly = #{dayHeavenly,jdbcType=CHAR},
+      day_branch = #{dayBranch,jdbcType=CHAR},
+      hours_heavenly = #{hoursHeavenly,jdbcType=CHAR},
+      hours_branch = #{hoursBranch,jdbcType=CHAR},
+      big_luck = #{bigLuck,jdbcType=VARCHAR},
+      zi_ping_pattern = #{ziPingPattern,jdbcType=VARCHAR},
+      comment_main = #{commentMain,jdbcType=VARCHAR},
+      main_experience = #{mainExperience,jdbcType=VARCHAR},
+      birth_date_time = #{birthDateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>
