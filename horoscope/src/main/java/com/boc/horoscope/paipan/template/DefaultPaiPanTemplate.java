@@ -4,6 +4,7 @@ import com.boc.horoscope.paipan.canggan.CangGanDeal;
 import com.boc.horoscope.paipan.daycolumn.DefaultDayColumnDeal;
 import com.boc.horoscope.paipan.dayun.dayun.DayunDeal;
 import com.boc.horoscope.paipan.dayun.jiaoyun.MakeQiyunDeal;
+import com.boc.horoscope.paipan.dayun.liunian.LiuNianDeal;
 import com.boc.horoscope.paipan.dto.PaipanRunDTO;
 import com.boc.horoscope.paipan.hourcolumn.DefaultHourColumnDeal;
 import com.boc.horoscope.paipan.kongwang.KongWangDeal;
@@ -77,6 +78,10 @@ public class DefaultPaiPanTemplate extends PaiPanTemplate{
     @Resource(name = "computeMingGongDeal")
     private MingGongDeal computeMingGongDeal;
 
+    @Autowired
+    private LiuNianDeal liuNianDeal;
+
+
     @Override
     public void paiPanProcess(PaipanRunDTO paipanRunDTO) {
         defaultTrueSunDeal.deal(paipanRunDTO);
@@ -96,5 +101,6 @@ public class DefaultPaiPanTemplate extends PaiPanTemplate{
         taiYuanDeal.deal(paipanRunDTO);
         kongWangDeal.deal(paipanRunDTO);
         computeMingGongDeal.deal(paipanRunDTO);
+        liuNianDeal.deal(paipanRunDTO);
     }
 }
